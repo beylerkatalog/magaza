@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Engin Home – Ev ve Yaşam Ürünleri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+<style>
+  body {
+    background-color: #fbfaf8;
+    color: #1a1918;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(6px);
+  }
+  .dropzone-active {
+    border-color: #1a1918 !important;
+    background-color: #f5f2eb !important;
+  }
+  /* Fast image transition */
+  .img-lazy {
+    transition: opacity 0.3s ease;
+  }
+</style>
+
+<style id="standalone-iphone-css">
+/* Standalone/iPhone CSS: no Tailwind or external CSS required. */
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; overflow-x:hidden; }
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-width:0;overflow-x:hidden;background:#fbfaf8;color:#1a1918;-webkit-overflow-scrolling:touch}
+img{max-width:100%;display:block}.svg{display:block}.hidden{display:none!important}.block{display:block}.inline-block{display:inline-block}
+.flex{display:flex}.grid{display:grid}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.shrink-0{flex-shrink:0}.items-center{align-items:center}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}
+.relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}.sticky{position:sticky}.inset-0{inset:0}.top-0{top:0}.top-3{top:.75rem}.top-3\.5{top:.875rem}.top-4{top:1rem}.bottom-0{bottom:0}.left-3{left:.75rem}.left-3\.5{left:.875rem}.right-0{right:0}.right-4{right:1rem}
+.z-10{z-index:10}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}
+.w-full{width:100%}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-10{width:2.5rem}.w-11{width:2.75rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-16{width:4rem}.w-24{width:6rem}.w-60{width:15rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-10{height:2.5rem}.h-11{height:2.75rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-20{height:5rem}.h-24{height:6rem}.h-80{height:20rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.min-w-0{min-width:0}
+.max-w-2xl{max-width:42rem}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.max-h-\[92vh\]{max-height:92vh}.min-h-\[120px\]{min-height:120px}
+.mx-auto{margin-left:auto;margin-right:auto}.mx-4{margin-left:1rem;margin-right:1rem}.my-6{margin-top:1.5rem;margin-bottom:1.5rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-8{margin-top:2rem}.mt-12{margin-top:3rem}.mt-auto{margin-top:auto}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.p-1{padding:.25rem}.p-1\.5{padding:.375rem}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.pb-2{padding-bottom:.5rem}.pb-3{padding-bottom:.75rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:.25rem}.pt-2{padding-top:.5rem}.pt-3{padding-top:.75rem}.pt-8{padding-top:2rem}.pl-10{padding-left:2.5rem}.pr-4{padding-right:1rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-16{padding-top:4rem;padding-bottom:4rem}
+.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-1>*+*{margin-top:.25rem}.space-y-2>*+*{margin-top:.5rem}.space-y-3>*+*{margin-top:.75rem}.space-y-4>*+*{margin-top:1rem}.space-x-1>*+*{margin-left:.25rem}
+.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.border{border-width:1px;border-style:solid}.border-2{border-width:2px}.border-b{border-bottom-width:1px;border-bottom-style:solid}.border-b-2{border-bottom-width:2px;border-bottom-style:solid}.border-t{border-top-width:1px;border-top-style:solid}.border-dashed{border-style:dashed}.border-transparent{border-color:transparent}.border-stone-100{border-color:#f5f5f4}.border-stone-200{border-color:#e7e5e4}.border-stone-300{border-color:#d6d3d1}.border-stone-800{border-color:#292524}.border-stone-900{border-color:#1c1917}.border-rose-200{border-color:#fecdd3}
+.rounded{border-radius:.25rem}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}
+.bg-white{background:#fff}.bg-black{background:#000}.bg-stone-50{background:#fafaf9}.bg-stone-100{background:#f5f5f4}.bg-stone-200{background:#e7e5e4}.bg-stone-800{background:#292524}.bg-stone-900{background:#1c1917}.bg-brand-900{background:#1a1918}.bg-brand-50{background:#fbfaf8}.bg-brand-100{background:#f5f2eb}.bg-emerald-100{background:#d1fae5}.bg-rose-50{background:#fff1f2}.bg-rose-100{background:#ffe4e6}.bg-rose-900\/80{background:rgba(76,5,25,.8)}.bg-amber-100{background:#fef3c7}.bg-stone-50\/50{background:rgba(250,250,249,.5)}.bg-white\/10{background:rgba(255,255,255,.1)}
+.text-black{color:#000}.text-white{color:#fff}.text-brand-100{color:#f5f2eb}.text-brand-900{color:#1a1918}.text-stone-200{color:#e7e5e4}.text-stone-300{color:#d6d3d1}.text-stone-400{color:#a8a29e}.text-stone-500{color:#78716c}.text-stone-600{color:#57534e}.text-stone-700{color:#44403c}.text-stone-800{color:#292524}.text-stone-900{color:#1c1917}.text-amber-400{color:#fbbf24}.text-amber-600{color:#d97706}.text-amber-800{color:#92400e}.text-emerald-600{color:#059669}.text-emerald-800{color:#065f46}.text-rose-100{color:#ffe4e6}.text-rose-600{color:#e11d48}.text-rose-700{color:#be123c}.text-rose-800{color:#9f1239}
+.text-\[10px\]{font-size:10px;line-height:1.4}.text-\[11px\]{font-size:11px;line-height:1.4}.text-xs{font-size:.75rem;line-height:1rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.font-normal{font-weight:400}.font-medium{font-weight:500}.font-semibold{font-weight:600}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-serif{font-family:Georgia,'Times New Roman',serif}.uppercase{text-transform:uppercase}.italic{font-style:italic}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}.leading-none{line-height:1}.leading-tight{line-height:1.25}.leading-relaxed{line-height:1.625}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.object-cover{object-fit:cover}.aspect-square{aspect-ratio:1/1}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.cursor-pointer{cursor:pointer}.cursor-not-allowed{cursor:not-allowed}.opacity-0{opacity:0}.opacity-20{opacity:.2}.transform{transform:translateZ(0)}
+.shadow{box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.08)}.shadow-sm{box-shadow:0 1px 2px rgba(0,0,0,.05)}.shadow-md{box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1)}.shadow-2xl{box-shadow:0 25px 50px -12px rgba(0,0,0,.25)}
+.transition{transition:all .15s ease}.transition-all{transition:all .15s ease}.transition-transform{transition:transform .15s ease}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}
+.fill-current{fill:currentColor}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.selection\\:bg-black::selection{background:#000}.selection\\:text-white::selection{color:#fff}
+.divide-y>*+*{border-top:1px solid #f5f5f4}.divide-stone-100>*+*{border-color:#f5f5f4}
+.line-clamp-1{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.max-w-7xl,.max-w-5xl,.max-w-2xl,.max-w-md{width:100%;margin-left:auto;margin-right:auto}
+.hide-scrollbar::-webkit-scrollbar{display:none}.hide-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
+.modal-backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+button,input,select,textarea{font:inherit}button{cursor:pointer}input,select,textarea{max-width:100%;font-size:16px}button,select,input{touch-action:manipulation}
+.hover\\:bg-black:hover{background:#000}.hover\\:bg-rose-100:hover{background:#ffe4e6}.hover\\:bg-rose-800:hover{background:#9f1239}.hover\\:bg-stone-100:hover{background:#f5f5f4}.hover\\:bg-stone-200:hover{background:#e7e5e4}.hover\\:bg-stone-300:hover{background:#d6d3d1}.hover\\:bg-stone-50\\/80:hover{background:rgba(250,250,249,.8)}.hover\\:border-stone-400:hover{border-color:#a8a29e}.hover\\:shadow-md:hover{box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1)}.hover\\:text-stone-400:hover{color:#a8a29e}.hover\\:text-stone-700:hover{color:#44403c}.hover\\:text-stone-900:hover{color:#1c1917}.hover\\:text-white:hover{color:#fff}.hover\\:underline:hover{text-decoration:underline}.group:hover .group-hover\\:scale-105{transform:scale(1.05)}
+.focus\\:outline-none:focus{outline:none}.focus\\:bg-white:focus{background:#fff}.focus\\:border-brand-900:focus{border-color:#1a1918}.focus\\:border-stone-900:focus{border-color:#1c1917}
+[ class~="bg-[radial-gradient(#fff_1px,transparent_1px)]" ]{background-image:radial-gradient(#fff 1px,transparent 1px)}
+[class~="background-size:16px_16px"]{background-size:16px 16px}
+/* responsive */
+@media (min-width:640px){.sm\\:flex-row{flex-direction:row}.sm\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\\:col-span-2{grid-column:span 2/span 2}.sm\\:items-center{align-items:center}.sm\\:inline{display:inline}.sm\\:h-12{height:3rem}.sm\\:p-4{padding:1rem}.sm\\:p-8{padding:2rem}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:text-5xl{font-size:3rem;line-height:1}.sm\\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\\:text-sm{font-size:.875rem;line-height:1.25rem}.sm\\:text-xl{font-size:1.25rem;line-height:1.75rem}.sm\\:w-12{width:3rem}.sm\\:py-16{padding-top:4rem;padding-bottom:4rem}}
+@media (min-width:768px){.md\\:block{display:block}.md\\:flex{display:flex}.md\\:hidden{display:none}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\\:py-16{padding-top:4rem;padding-bottom:4rem}}
+@media (min-width:1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}
+@media (max-width:639px){
+ .grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}
+ .max-w-7xl,.max-w-5xl,.max-w-2xl,.max-w-md{max-width:100%}
+ header .h-20{height:auto;min-height:64px;padding-top:10px;padding-bottom:10px}
+ header .gap-4{gap:.5rem}
+ header .px-4{padding-left:.75rem;padding-right:.75rem}
+ #btnOpenCart{min-height:44px;white-space:nowrap}
+ #categoryNav{overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap;padding-bottom:8px}
+ #categoryNav .cat-btn{flex:0 0 auto;min-height:40px}
+ #productGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ #adminProductTable{min-width:760px}
+ #cartDrawer>div{width:100%;max-width:100%;height:100dvh;max-height:100dvh}
+ #adminModal>div,#adminLoginModal>div{max-height:calc(100dvh - 16px)}
+ .modal-backdrop{padding:8px!important}
+}
+@media (max-width:380px){#productGrid{grid-template-columns:1fr}header .font-extrabold{font-size:14px}}
+</style>
+</head>
+<noscript><div style="position:fixed;left:10px;right:10px;bottom:10px;z-index:99999;background:#1c1917;color:#fff;padding:12px 14px;border-radius:12px;font:14px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.25)">Bu dosyadaki sepet ve yönetim paneli için JavaScript gereklidir. iPhone'da dosyayı Safari'de açın; WhatsApp/Dosyalar önizlemesinde açmayın.</div></noscript>
+<body class="min-h-screen flex flex-col antialiased selection:bg-black selection:text-white">
+
+<!-- Announcement Bar (Removed Header Admin Link) -->
+<div class="bg-brand-900 text-brand-100 text-xs sm:text-sm text-center py-2.5 px-4 font-medium tracking-wide">
+  <span>✨ Engin Home Özel Fırsatları – 1.500 ₺ Üzeri Ücretsiz Kargo</span>
+</div>
+
+<!-- Main Sticky Header -->
+<header class="sticky top-0 z-30 bg-white border-b border-stone-200 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20 gap-4">
+      
+      <!-- Logo Component (Redesigned EH Logo as specified) -->
+      <a href="#" class="flex items-center gap-3 group shrink-0" aria-label="Engin Home Ana Sayfa">
+        <div class="flex items-center gap-2.5">
+          <!-- Logo Circle Icon -->
+          <div class="w-11 h-11 sm:w-12 sm:h-12 bg-black rounded-full flex items-center justify-center p-1.5 shadow-md group-hover:scale-105 transition-transform">
+            <svg viewBox="0 0 100 100" class="w-full h-full text-white fill-current">
+              <!-- 'e' design cutout -->
+              <path d="M 42 22 C 28 22 18 32 18 46 C 18 60 28 70 42 70 C 52 70 59 64 62 55 L 50 55 C 48 58 45 60 41 60 C 33 60 28 53 28 47 L 64 47 C 64 33 55 22 42 22 Z M 28 40 C 30 33 35 29 42 29 C 48 29 53 33 54 40 Z" />
+              <!-- 'h.' design -->
+              <path d="M 66 18 L 76 18 L 76 38 C 80 32 85 30 91 30 C 98 30 100 36 100 45 L 100 70 L 90 70 L 90 48 C 90 42 87 39 81 39 C 75 39 71 43 71 52 L 71 70 L 66 70 Z" />
+            </svg>
+          </div>
+          <!-- Text Brand -->
+          <div class="flex flex-col">
+            <span class="font-extrabold text-stone-900 tracking-tight text-lg sm:text-xl leading-none">engin home</span>
+            <span class="text-[10px] font-semibold text-stone-400 tracking-widest uppercase mt-0.5">Ev & Yaşam</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Search Bar -->
+      <div class="hidden md:flex flex-1 max-w-md relative mx-4">
+        <input type="text" id="searchInput" placeholder="Mobilya, vazo, mutfak gereçleri ara..." class="w-full bg-stone-100 border border-stone-200 rounded-full py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:border-brand-900 focus:bg-white transition-all">
+        <svg class="w-4 h-4 text-stone-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      </div>
+
+      <!-- Header Actions -->
+      <div class="flex items-center gap-3">
+        <!-- Cart Button -->
+        <button id="btnOpenCart" class="bg-brand-900 hover:bg-black text-white font-semibold px-4 py-2.5 rounded-full text-sm flex items-center gap-2 transition shadow-sm">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span class="hidden sm:inline">Sepetim</span>
+          <span id="cartBadge" class="bg-white text-brand-900 font-bold text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Search input -->
+    <div class="pb-3 md:hidden">
+      <input type="text" id="searchInputMobile" placeholder="Ürün ara..." class="w-full bg-stone-100 border border-stone-200 rounded-lg py-2 px-3 text-sm focus:outline-none focus:border-brand-900">
+    </div>
+
+    <!-- Category Bar -->
+    <nav id="categoryNav" class="flex items-center gap-2 overflow-x-auto py-2.5 border-t border-stone-100 hide-scrollbar text-sm font-medium text-stone-600">
+      <!-- Categories dynamically rendered here -->
+    </nav>
+  </div>
+</header>
+
+<main class="flex-grow">
+  <!-- Hero Section (Removed Admin trigger button) -->
+  <section class="bg-stone-900 text-white py-12 md:py-16 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <span class="inline-block bg-white/10 text-stone-200 text-xs uppercase tracking-widest px-3 py-1 rounded-full font-semibold mb-4">Yeni Sezon Koleksiyonu</span>
+          <h1 class="font-serif text-3xl sm:text-5xl font-bold leading-tight mb-4">
+            Eviniz İçin Zamansız <br><span class="italic text-stone-300 font-normal">Şıklık & Konfor</span>
+          </h1>
+          <p class="text-stone-300 text-base sm:text-lg mb-6 max-w-md">
+            Engin Home güvencesiyle tasarlanmış modern mobilyalar, şık ev aksesuarları ve işlevsel mutfak çözümleri.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#storeSection" class="bg-white text-stone-900 hover:bg-stone-100 font-bold px-6 py-3 rounded-lg text-sm transition shadow">
+              Ürünleri Keşfet
+            </a>
+          </div>
+        </div>
+        <div class="relative hidden md:block">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Engin Home Dekorasyon" class="rounded-2xl shadow-2xl object-cover h-80 w-full border border-stone-800">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORE SECTION -->
+  <section id="storeSection" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    
+    <!-- Controls Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-stone-200">
+      <div>
+        <h2 id="sectionTitle" class="text-2xl font-bold text-stone-900 font-serif">Tüm Ürünler</h2>
+        <p id="sectionSub" class="text-xs text-stone-500 mt-1">Stok durumu ve ürün detayları canlı güncellenmektedir.</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <label class="text-xs font-semibold text-stone-500 uppercase tracking-wider">Sırala:</label>
+        <select id="sortSelect" class="bg-white border border-stone-200 text-stone-800 text-sm rounded-lg px-3 py-2 focus:outline-none focus:border-stone-900">
+          <option value="default">Öne Çıkanlar</option>
+          <option value="price-asc">Fiyat: Düşükten Yükseğe</option>
+          <option value="price-desc">Fiyat: Yüksekten Düşüğe</option>
+          <option value="stock-desc">Stok Miktarına Göre</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=600&q=80" alt="Meşe Görünümlü Orta Sehpa" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (8)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">Meşe Görünümlü Orta Sehpa</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Doğal ahşap kaplama, dayanıklı çelik ayaklı modern orta sehpa.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">2.450 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="101">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80" alt="TV Ünitesi 180 cm" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-amber-100 text-amber-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Son 4 Ürün</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">TV Ünitesi 180 cm</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Geniş depolama hacmi ve minimalist tasarım TV konsolu.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">6.900 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="102">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=600&q=80" alt="5 Raflı Ahşap Kitaplık" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (12)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">5 Raflı Ahşap Kitaplık</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Masif çam raflar ve fırın boyalı metal konstrüksiyon.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">3.750 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="103">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=600&q=80" alt="El Yapımı Seramik Vazo" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (15)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">El Yapımı Seramik Vazo</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Özel tasarım mat dokulu el yapımı dekoratif vazo.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">690 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="104">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=600&q=80" alt="Yuvarlak Çerçeveli Duvar Aynası" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-amber-100 text-amber-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Son 3 Ürün</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">Yuvarlak Çerçeveli Duvar Aynası</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">70 cm çapında pirinç detaylı şık duvar aynası.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">1.290 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="105">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=600&q=80" alt="Kokulu Mum Seti (3&#x27;lü)" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (25)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">Kokulu Mum Seti (3&#x27;lü)</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Soya mumu esanslı lavanta ve vanilya aromalı mum seti.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">320 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="106">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80" alt="12 Parça Çelik Tencere Seti" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (6)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">12 Parça Çelik Tencere Seti</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">18/10 Paslanmaz çelik indüksiyon tabanlı tencere seti.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">2.890 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="107">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=600&q=80" alt="24 Parça Porselen Yemek Takımı" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-amber-100 text-amber-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Son 2 Ürün</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">24 Parça Porselen Yemek Takımı</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">6 kişilik altın yaldız detaylı modern porselen seti.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">1.950 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="108">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80" alt="Bambu Banyo Düzenleyici Raf" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-rose-100 text-rose-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Tükendi</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">Bambu Banyo Düzenleyici Raf</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Suya dayanıklı %100 doğal bambu banyo organizeri.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">780 ₺</div><button disabled class="w-full bg-stone-200 text-stone-400 font-bold py-2.5 rounded-lg text-xs">Stokta Yok</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?auto=format&fit=crop&w=600&q=80" alt="Pamuklu Banyo Havlu Seti (4&#x27;lü)" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (18)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">Pamuklu Banyo Havlu Seti (4&#x27;lü)</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Ege pamuğundan yüksek emici yüz ve banyo havluları.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">640 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="110">Sepete Ekle</button></div></div></article><article class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col">
+<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80" alt="Dekoratif Ahşap Servis Tepsisi" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'"><div class="absolute top-3 left-3"><span class="bg-emerald-100 text-emerald-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Stokta Var (10)</span></div></div>
+<div class="p-4 flex flex-col flex-grow"><h3 class="font-bold text-sm text-stone-900 line-clamp-2">Dekoratif Ahşap Servis Tepsisi</h3><p class="text-xs text-stone-500 mt-1 line-clamp-2">Ceviz kaplama pirinç kulplu sunum tepsisi.</p><div class="mt-auto pt-3"><div class="text-lg font-extrabold text-stone-900 mb-3">540 ₺</div><button class="btn-add-cart w-full bg-stone-900 text-white font-bold py-2.5 rounded-lg text-xs" data-id="111">Sepete Ekle</button></div></div></article>
+</div>
+
+    <!-- Empty State -->
+    <div id="emptyStoreState" class="hidden text-center py-16 bg-white rounded-2xl border border-dashed border-stone-300 my-6">
+      <svg class="w-12 h-12 text-stone-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/></svg>
+      <h3 class="text-base font-bold text-stone-800">Aramanıza Uygun Ürün Bulunamadı</h3>
+      <p class="text-xs text-stone-500 mt-1">Farklı bir kategori veya arama terimi deneyebilirsiniz.</p>
+    </div>
+
+  </section>
+</main>
+
+<!-- ADMIN LOGIN OVERLAY -->
+<div id="adminLoginModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-backdrop">
+  <div class="bg-white w-full max-w-md rounded-2xl shadow-2xl p-6 sm:p-8 relative">
+    <button id="btnCloseLogin" class="absolute top-4 right-4 text-stone-400 hover:text-stone-700 text-2xl font-bold">&times;</button>
+    
+    <div class="text-center mb-6">
+      <div class="w-12 h-12 rounded-full bg-stone-900 text-white flex items-center justify-center mx-auto mb-3 text-xl">
+        🔒
+      </div>
+      <h3 class="text-xl font-bold text-stone-900 font-serif">Yönetici Girişi</h3>
+      <p class="text-xs text-stone-500 mt-1">Devam etmek için yetkili kullanıcı adı ve şifrenizi girin.</p>
+    </div>
+
+    <form id="adminLoginForm" class="space-y-4">
+      <div>
+        <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Kullanıcı Adı</label>
+        <input type="text" id="loginUsername" required placeholder="Kullanıcı adınız..." class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-brand-900">
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Şifre</label>
+        <input type="password" id="loginPassword" required placeholder="••••••••" class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-brand-900">
+      </div>
+
+      <div id="loginErrorMsg" class="hidden bg-rose-50 border border-rose-200 text-rose-700 text-xs p-3 rounded-lg font-medium text-center">
+        Kullanıcı adı veya şifre hatalı!
+      </div>
+
+      <button type="submit" class="w-full bg-brand-900 hover:bg-black text-white font-bold py-3 rounded-lg text-sm transition shadow">
+        Giriş Yap
+      </button>
+
+      <div class="p-3 bg-stone-50 rounded-lg text-[11px] text-stone-500 text-center border border-stone-200">
+        📌 <span class="font-semibold">Sistem Girişi:</span> Kullanıcı Adı: <code class="bg-stone-200 px-1 py-0.5 rounded font-bold">1</code> | Şifre: <code class="bg-stone-200 px-1 py-0.5 rounded font-bold">1</code>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ADMIN CONTROL PANEL MODAL -->
+<div id="adminModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-2 sm:p-4 modal-backdrop">
+  <div class="bg-white w-full max-w-5xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[92vh]">
+    
+    <!-- Admin Header -->
+    <div class="bg-stone-900 text-white px-6 py-4 flex items-center justify-between border-b border-stone-800">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-stone-800 flex items-center justify-center text-amber-400 font-bold">🛠️</div>
+        <div>
+          <h2 class="text-lg font-bold">Engin Home – Yönetim & Stok Paneli</h2>
+          <p class="text-xs text-stone-400">Ürün ekleyin, düzenleyin, açıklama ve stok miktarlarını yönetin.</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button id="btnLogoutAdmin" class="bg-rose-900/80 hover:bg-rose-800 text-rose-100 text-xs px-3 py-1.5 rounded-lg transition font-semibold">
+          🚪 Çıkış Yap
+        </button>
+        <button id="btnCloseAdmin" class="text-stone-400 hover:text-white text-2xl font-bold px-2">&times;</button>
+      </div>
+    </div>
+
+    <!-- Admin Tabs -->
+    <div class="flex border-b border-stone-200 bg-stone-50 px-6 text-sm font-semibold">
+      <button id="tabBtnProducts" class="py-3 px-4 border-b-2 border-stone-900 text-stone-900 flex items-center gap-2">
+        📦 Ürün Listesi & Stoklar
+      </button>
+      <button id="tabBtnAddProduct" class="py-3 px-4 border-b-2 border-transparent text-stone-500 hover:text-stone-900 flex items-center gap-2">
+        ➕ Yeni Ürün Ekle
+      </button>
+      <button id="tabBtnOrders" class="py-3 px-4 border-b-2 border-transparent text-stone-500 hover:text-stone-900 flex items-center gap-2">
+        📋 Sipariş Özeti
+      </button>
+    </div>
+
+    <!-- Admin Content Area -->
+    <div class="p-6 overflow-y-auto flex-grow bg-stone-50/50">
+      
+      <!-- TAB 1: PRODUCT LIST & QUICK STOCK EDIT -->
+      <div id="tabProducts">
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+          <div class="flex items-center gap-2">
+            <input type="text" id="adminSearchInput" placeholder="Yönetimde ürün ara..." class="bg-white border border-stone-300 text-xs sm:text-sm rounded-lg px-3 py-2 w-60 focus:outline-none focus:border-stone-900">
+            <span id="adminTotalCount" class="text-xs bg-stone-200 px-2.5 py-1 rounded-full font-bold text-stone-700">0 Ürün</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <button id="btnResetData" class="text-xs bg-stone-200 hover:bg-stone-300 text-stone-800 font-semibold px-3 py-2 rounded-lg transition">
+              🔄 Varsayılan Kataloğu Yükle
+            </button>
+            <button id="btnAddNewTrigger" class="text-xs bg-stone-900 hover:bg-black text-white font-semibold px-3 py-2 rounded-lg transition flex items-center gap-1">
+              <span>+</span> Yeni Ürün
+            </button>
+          </div>
+        </div>
+
+        <!-- Products Table -->
+        <div class="bg-white border border-stone-200 rounded-xl overflow-hidden shadow-sm">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs sm:text-sm text-stone-700">
+              <thead class="bg-stone-100 text-stone-600 uppercase text-[11px] font-bold tracking-wider">
+                <tr>
+                  <th class="p-3">Görsel</th>
+                  <th class="p-3">Ürün Adı / Açıklama</th>
+                  <th class="p-3">Kategori</th>
+                  <th class="p-3">Fiyat (₺)</th>
+                  <th class="p-3">Stok Adedi</th>
+                  <th class="p-3 text-right">İşlemler</th>
+                </tr>
+              </thead>
+              <tbody id="adminProductTable" class="divide-y divide-stone-100">
+                <!-- Dynamic rows -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: ADD / EDIT PRODUCT FORM WITH FILE UPLOAD -->
+      <div id="tabAddProduct" class="hidden">
+        <form id="productForm" class="bg-white border border-stone-200 rounded-xl p-6 max-w-2xl mx-auto space-y-4 shadow-sm">
+          <h3 id="formTitle" class="text-base font-bold text-stone-900 border-b border-stone-100 pb-2">Yeni Ürün Bilgileri</h3>
+          <input type="hidden" id="editProductId" value="">
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Ürün Adı *</label>
+              <input type="text" id="formName" required placeholder="Örn: Meşe Ahşap Yemek Masası" class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-stone-900">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Kategori *</label>
+              <select id="formCategory" required class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-stone-900">
+                <option value="mobilya">Mobilya</option>
+                <option value="dekor">Ev Dekorasyon</option>
+                <option value="mutfak">Mutfak Ürünleri</option>
+                <option value="banyo">Banyo Ürünleri</option>
+                <option value="aksesuar">Aksesuar</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Fiyat (₺) *</label>
+              <input type="number" id="formPrice" min="0" step="1" required placeholder="2450" class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-stone-900">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Stok Adedi *</label>
+              <input type="number" id="formStock" min="0" required placeholder="15" class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-stone-900">
+            </div>
+
+            <!-- Image Input (File Upload + Drag & Drop with Auto Compression) -->
+            <div class="sm:col-span-2 space-y-2">
+              <label class="block text-xs font-bold uppercase text-stone-600">Ürün Görseli</label>
+              
+              <!-- Drag and Drop Dropzone -->
+              <div id="imageDropzone" class="border-2 border-dashed border-stone-300 hover:border-stone-400 rounded-xl p-4 text-center cursor-pointer transition bg-stone-50 flex flex-col items-center justify-center min-h-[120px] relative">
+                <input type="file" id="fileInput" accept="image/*" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full z-10">
+                
+                <!-- Preview Container -->
+                <div id="imagePreviewContainer" class="hidden flex-col items-center gap-2">
+                  <img id="imagePreview" src="" alt="Önizleme" class="w-24 h-24 object-cover rounded-lg border border-stone-200 shadow-sm">
+                  <span class="text-xs text-stone-500 font-semibold">Görsel Yüklendi (Değiştirmek için tekrar tıklayın)</span>
+                </div>
+
+                <!-- Default Upload UI -->
+                <div id="dropzoneDefaultUI" class="space-y-1">
+                  <svg class="w-8 h-8 text-stone-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/></svg>
+                  <p class="text-xs font-bold text-stone-700">Cihazınızdan dosya seçin veya buraya sürükleyip bırakın</p>
+                  <p class="text-[11px] text-stone-400">PNG, JPG, WEBP (Görseller otomatik optimize edilir)</p>
+                </div>
+              </div>
+
+              <!-- URL Fallback Input -->
+              <div class="pt-1">
+                <span class="text-[11px] text-stone-400 block mb-1">Veya İnternet Görsel Bağlantısı (URL) girin:</span>
+                <input type="url" id="formImage" placeholder="https://images.unsplash.com/..." class="w-full border border-stone-300 rounded-lg p-2 text-xs focus:outline-none focus:border-stone-900">
+              </div>
+            </div>
+
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Açıklama</label>
+              <textarea id="formDesc" rows="3" placeholder="Ürün malzeme ve detay özellikleri..." class="w-full border border-stone-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-stone-900"></textarea>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-end gap-3 pt-3 border-t border-stone-100">
+            <button type="button" id="btnCancelForm" class="px-4 py-2 text-xs font-bold text-stone-600 hover:text-stone-900">İptal</button>
+            <button type="submit" class="bg-brand-900 hover:bg-black text-white px-6 py-2.5 rounded-lg text-xs font-bold transition">Kaydet ve Yenile</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- TAB 3: SIMULATED ORDERS & SUMMARY -->
+      <div id="tabOrders" class="hidden space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="bg-white p-4 rounded-xl border border-stone-200">
+            <p class="text-xs text-stone-500 font-semibold">Toplam Ürün Çeşidi</p>
+            <p id="statTotalItems" class="text-2xl font-bold text-stone-900 mt-1">0</p>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-stone-200">
+            <p class="text-xs text-stone-500 font-semibold">Kritik Stoktaki Ürünler (&lt; 5)</p>
+            <p id="statLowStock" class="text-2xl font-bold text-amber-600 mt-1">0</p>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-stone-200">
+            <p class="text-xs text-stone-500 font-semibold">Tükenen Ürünler (0 Stok)</p>
+            <p id="statOutOfStock" class="text-2xl font-bold text-rose-600 mt-1">0</p>
+          </div>
+        </div>
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5">
+          <h4 class="font-bold text-sm text-stone-800 mb-3">Son Mağaza Hareketleri / Bildirimler</h4>
+          <ul id="adminActivityLog" class="space-y-2 text-xs text-stone-600">
+            <li class="p-2 bg-stone-50 rounded border border-stone-100 flex items-center justify-between">
+              <span>Sistem hazır ve yerel veriler senkronize edildi.</span>
+              <span class="text-stone-400">Şimdi</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- CART DRAWER -->
+<div id="cartDrawer" class="fixed inset-0 z-40 hidden modal-backdrop">
+  <div class="absolute right-0 top-0 bottom-0 w-full max-w-md bg-white shadow-2xl flex flex-col transform transition-transform">
+    <div class="p-5 bg-stone-900 text-white flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+        <h3 class="font-bold text-base">Alışveriş Sepetim</h3>
+      </div>
+      <button id="btnCloseCart" class="text-stone-400 hover:text-white text-2xl font-bold">&times;</button>
+    </div>
+
+    <!-- Cart Items List -->
+    <div id="cartItemsList" class="p-5 flex-grow overflow-y-auto divide-y divide-stone-100">
+      <!-- Dynamic cart items -->
+    </div>
+
+    <!-- Cart Footer -->
+    <div class="p-5 border-t border-stone-200 bg-stone-50 space-y-3">
+      <div class="flex justify-between items-center text-sm">
+        <span class="text-stone-600">Ara Toplam</span>
+        <span id="cartSubtotal" class="font-bold text-stone-900">0 ₺</span>
+      </div>
+      <div class="flex justify-between items-center text-sm">
+        <span class="text-stone-600">Kargo</span>
+        <span id="cartShipping" class="font-semibold text-emerald-600">Ücretsiz</span>
+      </div>
+      <div class="flex justify-between items-center text-base border-t border-stone-200 pt-2 font-bold text-stone-900">
+        <span>Genel Toplam</span>
+        <span id="cartTotal" class="text-brand-900">0 ₺</span>
+      </div>
+      <button id="btnCheckout" class="w-full bg-brand-900 hover:bg-black text-white font-bold py-3 rounded-lg text-sm transition shadow">
+        Siparişi Tamamla
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-stone-900 text-stone-400 text-xs py-10 border-t border-stone-800 mt-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <!-- Footer Logo -->
+      <div class="flex items-center gap-2.5 mb-3">
+        <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center p-1">
+          <svg viewBox="0 0 100 100" class="w-full h-full text-black fill-current">
+            <path d="M 42 22 C 28 22 18 32 18 46 C 18 60 28 70 42 70 C 52 70 59 64 62 55 L 50 55 C 48 58 45 60 41 60 C 33 60 28 53 28 47 L 64 47 C 64 33 55 22 42 22 Z M 28 40 C 30 33 35 29 42 29 C 48 29 53 33 54 40 Z" />
+            <path d="M 66 18 L 76 18 L 76 38 C 80 32 85 30 91 30 C 98 30 100 36 100 45 L 100 70 L 90 70 L 90 48 C 90 42 87 39 81 39 C 75 39 71 43 71 52 L 71 70 L 66 70 Z" />
+          </svg>
+        </div>
+        <span class="font-extrabold text-white tracking-tight text-lg">engin home</span>
+      </div>
+      <p class="leading-relaxed">Engin Home evinizi güzelleştiren kaliteli ve şık ürünleri kapınıza getirir.</p>
+    </div>
+    <div>
+      <h4 class="text-white font-bold mb-2 uppercase tracking-wider text-[11px]">Kategoriler</h4>
+      <ul class="space-y-1">
+        <li><a href="#storeSection" class="hover:text-white">Mobilya Koleksiyonu</a></li>
+        <li><a href="#storeSection" class="hover:text-white">Ev Dekorasyon Ürünleri</a></li>
+        <li><a href="#storeSection" class="hover:text-white">Mutfak & Yemek Odası</a></li>
+        <li><a href="#storeSection" class="hover:text-white">Banyo Aksesuarları</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-white font-bold mb-2 uppercase tracking-wider text-[11px]">Müşteri Destek</h4>
+      <p class="mb-2">Hafta içi 09:00 - 18:00 arası canlı destek ve sipariş takibi.</p>
+      <p class="text-stone-500 text-[11px]">Güvenli Ödeme & Hızlı Teslimat</p>
+    </div>
+  </div>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 mt-8 border-t border-stone-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="text-stone-500">
+      © Engin Home - Tüm Hakları Saklıdır.
+    </div>
+    <!-- ONLY subtle footer entry point for Admin -->
+    <div>
+      <button id="footerAdminBtn" class="text-stone-600 hover:text-stone-400 text-[11px] transition duration-200">
+        Yönetici Paneli Girişi
+      </button>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  // Category Definitions
+  var CATEGORIES = [
+    { id: "all", name: "Tüm Ürünler" },
+    { id: "mobilya", name: "Mobilya" },
+    { id: "dekor", name: "Ev Dekorasyon" },
+    { id: "mutfak", name: "Mutfak Ürünleri" },
+    { id: "banyo", name: "Banyo Ürünleri" },
+    { id: "aksesuar", name: "Aksesuar" }
+  ];
+
+  // Default SVG Fallback Generator (Crisp SVG placeholder when no image URL exists)
+  var SVG_PLACEHOLDER = "data:image/svg+xml;utf8," + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none">' +
+    '<rect width="600" height="600" fill="#f5f2eb"/>' +
+    '<circle cx="300" cy="270" r="80" fill="#e7e2d4"/>' +
+    '<path d="M 270 230 C 250 230 235 245 235 265 C 235 285 250 300 270 300 C 285 300 295 290 298 278 L 282 278 C 280 282 276 285 270 285 C 260 285 253 277 253 267 L 302 267 C 302 245 288 230 270 230 Z M 253 257 C 255 248 262 243 270 243 C 278 243 283 248 284 257 Z" fill="#1a1918"/>' +
+    '<path d="M 305 225 L 318 225 L 318 253 C 323 245 330 242 338 242 C 347 242 352 248 352 260 L 352 295 L 340 295 L 340 265 C 340 257 336 253 329 253 C 322 253 318 258 318 270 L 318 295 L 305 295 Z" fill="#1a1918"/>' +
+    '<text x="300" y="400" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="22" fill="#888" text-anchor="middle">Engin Home Görseli</text>' +
+    '</svg>'
+  );
+
+  // Default Catalog
+  var DEFAULT_PRODUCTS = [
+    { id: 101, c: "mobilya", n: "Meşe Görünümlü Orta Sehpa", p: 2450, stock: 8, img: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=600&q=80", desc: "Doğal ahşap kaplama, dayanıklı çelik ayaklı modern orta sehpa." },
+    { id: 102, c: "mobilya", n: "TV Ünitesi 180 cm", p: 6900, stock: 4, img: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80", desc: "Geniş depolama hacmi ve minimalist tasarım TV konsolu." },
+    { id: 103, c: "mobilya", n: "5 Raflı Ahşap Kitaplık", p: 3750, stock: 12, img: "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=600&q=80", desc: "Masif çam raflar ve fırın boyalı metal konstrüksiyon." },
+    { id: 104, c: "dekor", n: "El Yapımı Seramik Vazo", p: 690, stock: 15, img: "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=600&q=80", desc: "Özel tasarım mat dokulu el yapımı dekoratif vazo." },
+    { id: 105, c: "dekor", n: "Yuvarlak Çerçeveli Duvar Aynası", p: 1290, stock: 3, img: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=600&q=80", desc: "70 cm çapında pirinç detaylı şık duvar aynası." },
+    { id: 106, c: "dekor", n: "Kokulu Mum Seti (3'lü)", p: 320, stock: 25, img: "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=600&q=80", desc: "Soya mumu esanslı lavanta ve vanilya aromalı mum seti." },
+    { id: 107, c: "mutfak", n: "12 Parça Çelik Tencere Seti", p: 2890, stock: 6, img: "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80", desc: "18/10 Paslanmaz çelik indüksiyon tabanlı tencere seti." },
+    { id: 108, c: "mutfak", n: "24 Parça Porselen Yemek Takımı", p: 1950, stock: 2, img: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=600&q=80", desc: "6 kişilik altın yaldız detaylı modern porselen seti." },
+    { id: 109, c: "banyo", n: "Bambu Banyo Düzenleyici Raf", p: 780, stock: 0, img: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80", desc: "Suya dayanıklı %100 doğal bambu banyo organizeri." },
+    { id: 110, c: "banyo", n: "Pamuklu Banyo Havlu Seti (4'lü)", p: 640, stock: 18, img: "https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?auto=format&fit=crop&w=600&q=80", desc: "Ege pamuğundan yüksek emici yüz ve banyo havluları." },
+    { id: 111, c: "aksesuar", n: "Dekoratif Ahşap Servis Tepsisi", p: 540, stock: 10, img: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80", desc: "Ceviz kaplama pirinç kulplu sunum tepsisi." }
+  ];
+
+  // App State
+  var state = {
+    products: [],
+    cart: {},
+    activeCat: "all",
+    searchQuery: "",
+    sortBy: "default",
+    adminSearch: "",
+    isAdminLoggedIn: false,
+    currentUploadedImageDataUrl: ""
+  };
+
+  // Debounce helper for optimization
+  function debounce(fn, wait) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      clearTimeout(timeout);
+      timeout = setTimeout(function() { fn.apply(context, args); }, wait);
+    };
+  }
+
+  function loadStoredProducts() {
+    try {
+      var saved = localStorage.getItem("engin_home_products");
+      if (saved) {
+        state.products = JSON.parse(saved);
+      } else {
+        state.products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+        saveProducts();
+      }
+    } catch(e) {
+      state.products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+    }
+  }
+
+  function saveProducts() {
+    try {
+      localStorage.setItem("engin_home_products", JSON.stringify(state.products));
+    } catch(e) { 
+      console.error("Storage save failed", e); 
+      alert("Depolama alanı doldu! Daha küçük görseller kullanmayı deneyin.");
+    }
+  }
+
+  function formatMoney(num) {
+    return num.toLocaleString("tr-TR") + " ₺";
+  }
+
+  function getCatName(catId) {
+    var found = CATEGORIES.find(function(c){ return c.id === catId; });
+    return found ? found.name : catId;
+  }
+
+  // --- RENDER STOREFRONT ---
+  function renderCategories() {
+    var nav = document.getElementById("categoryNav");
+    nav.innerHTML = CATEGORIES.map(function(cat) {
+      var active = state.activeCat === cat.id;
+      var cls = active 
+        ? "bg-brand-900 text-white font-bold" 
+        : "bg-stone-100 hover:bg-stone-200 text-stone-700 font-medium";
+      return '<button class="cat-btn shrink-0 px-4 py-2 rounded-full transition text-xs sm:text-sm ' + cls + '" data-cat="' + cat.id + '">' + cat.name + '</button>';
+    }).join("");
+  }
+
+  function renderProducts() {
+    var grid = document.getElementById("productGrid");
+    var empty = document.getElementById("emptyStoreState");
+    
+    var list = state.products.filter(function(p) {
+      var matchesCat = state.activeCat === "all" || p.c === state.activeCat;
+      var matchesSearch = !state.searchQuery || p.n.toLowerCase().includes(state.searchQuery.toLowerCase()) || (p.desc && p.desc.toLowerCase().includes(state.searchQuery.toLowerCase()));
+      return matchesCat && matchesSearch;
+    });
+
+    if (state.sortBy === "price-asc") list.sort(function(a,b){ return a.p - b.p; });
+    if (state.sortBy === "price-desc") list.sort(function(a,b){ return b.p - a.p; });
+    if (state.sortBy === "stock-desc") list.sort(function(a,b){ return b.stock - a.stock; });
+
+    if (list.length === 0) {
+      grid.innerHTML = "";
+      empty.classList.remove("hidden");
+      return;
+    }
+    empty.classList.add("hidden");
+
+    grid.innerHTML = list.map(function(p) {
+      var isOutOfStock = p.stock <= 0;
+      var isLowStock = p.stock > 0 && p.stock <= 4;
+      
+      var stockBadge = isOutOfStock
+        ? '<span class="bg-rose-100 text-rose-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Tükendi</span>'
+        : (isLowStock 
+            ? '<span class="bg-amber-100 text-amber-800 text-[11px] font-bold px-2.5 py-1 rounded-full">Son ' + p.stock + ' Ürün</span>' 
+            : '<span class="bg-emerald-100 text-emerald-800 text-[11px] font-semibold px-2.5 py-1 rounded-full">Stokta Var (' + p.stock + ')</span>');
+
+      var buttonHtml = isOutOfStock
+        ? '<button disabled class="w-full bg-stone-200 text-stone-400 font-bold py-2.5 rounded-lg text-xs cursor-not-allowed">Stokta Yok</button>'
+        : '<button class="btn-add-cart w-full bg-stone-900 hover:bg-black text-white font-bold py-2.5 rounded-lg text-xs transition shadow-sm" data-id="' + p.id + '">Sepete Ekle</button>';
+
+      var imgUrl = p.img || SVG_PLACEHOLDER;
+
+      return '<div class="bg-white border border-stone-200 rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition group">' +
+        '<div class="relative aspect-square bg-stone-100 overflow-hidden flex items-center justify-center">' +
+          '<img src="' + imgUrl + '" alt="' + p.n + '" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 img-lazy" onerror="this.onerror=null; this.src=\'' + SVG_PLACEHOLDER + '\'">' +
+          '<div class="absolute top-3 left-3">' + stockBadge + '</div>' +
+        '</div>' +
+        '<div class="p-4 flex flex-col flex-grow">' +
+          '<span class="text-[11px] font-bold uppercase tracking-wider text-stone-400 mb-1">' + getCatName(p.c) + '</span>' +
+          '<h3 class="font-semibold text-stone-900 text-sm mb-1 line-clamp-1">' + p.n + '</h3>' +
+          '<p class="text-xs text-stone-500 line-clamp-2 mb-3 leading-relaxed">' + (p.desc || 'Engin Home kalitesiyle tasarlanmıştır.') + '</p>' +
+          '<div class="mt-auto pt-2 flex items-center justify-between border-t border-stone-100 mb-3">' +
+            '<span class="text-base font-bold text-stone-900">' + formatMoney(p.p) + '</span>' +
+          '</div>' +
+          buttonHtml +
+        '</div>' +
+      '</div>';
+    }).join("");
+  }
+
+  function updateCartBadge() {
+    var totalQty = Object.values(state.cart).reduce(function(a,b){ return a+b; }, 0);
+    document.getElementById("cartBadge").textContent = totalQty;
+  }
+
+  function renderCartDrawer() {
+    var container = document.getElementById("cartItemsList");
+    var keys = Object.keys(state.cart);
+    var items = keys.map(function(id){
+      var p = state.products.find(function(prod){ return String(prod.id) === String(id); });
+      return p ? { product: p, qty: state.cart[id] } : null;
+    }).filter(Boolean);
+
+    if (items.length === 0) {
+      container.innerHTML = '<div class="text-center py-12 text-stone-400 text-xs">' +
+        '<p class="text-2xl mb-2">🛍️</p>Sepetiniz henüz boş.<br>Ürünleri inceleyip sepete ekleyebilirsiniz.</div>';
+      document.getElementById("cartSubtotal").textContent = "0 ₺";
+      document.getElementById("cartTotal").textContent = "0 ₺";
+      return;
+    }
+
+    var subtotal = 0;
+    container.innerHTML = items.map(function(item) {
+      var p = item.product;
+      var lineTotal = p.p * item.qty;
+      subtotal += lineTotal;
+
+      return '<div class="py-3 flex gap-3 items-center">' +
+        '<img src="' + (p.img || SVG_PLACEHOLDER) + '" class="w-14 h-14 object-cover rounded-lg border border-stone-200" onerror="this.src=\'' + SVG_PLACEHOLDER + '\'">' +
+        '<div class="flex-grow min-w-0">' +
+          '<h4 class="text-xs font-bold text-stone-900 truncate">' + p.n + '</h4>' +
+          '<p class="text-xs text-stone-500">' + formatMoney(p.p) + '</p>' +
+          '<div class="flex items-center gap-2 mt-1">' +
+            '<button class="cart-qty-btn bg-stone-100 hover:bg-stone-200 px-2 py-0.5 rounded text-xs font-bold" data-id="' + p.id + '" data-action="dec">-</button>' +
+            '<span class="text-xs font-bold px-1">' + item.qty + '</span>' +
+            '<button class="cart-qty-btn bg-stone-100 hover:bg-stone-200 px-2 py-0.5 rounded text-xs font-bold" data-id="' + p.id + '" data-action="inc">+</button>' +
+          '</div>' +
+        '</div>' +
+        '<div class="text-right">' +
+          '<p class="text-xs font-bold text-stone-900">' + formatMoney(lineTotal) + '</p>' +
+          '<button class="cart-qty-btn text-[11px] text-rose-600 hover:underline mt-1" data-id="' + p.id + '" data-action="remove">Kaldır</button>' +
+        '</div>' +
+      '</div>';
+    }).join("");
+
+    document.getElementById("cartSubtotal").textContent = formatMoney(subtotal);
+    document.getElementById("cartTotal").textContent = formatMoney(subtotal);
+  }
+
+  // --- ADMIN & IMAGE COMPRESSION LOGIC ---
+  function renderAdminTable() {
+    var tbody = document.getElementById("adminProductTable");
+    var search = state.adminSearch.toLowerCase();
+    
+    var filtered = state.products.filter(function(p) {
+      return !search || p.n.toLowerCase().includes(search) || getCatName(p.c).toLowerCase().includes(search);
+    });
+
+    document.getElementById("adminTotalCount").textContent = filtered.length + " Ürün";
+
+    tbody.innerHTML = filtered.map(function(p) {
+      var imgUrl = p.img || SVG_PLACEHOLDER;
+      var stockClass = p.stock === 0 ? "bg-rose-50 border-rose-300 text-rose-800" : (p.stock < 5 ? "bg-amber-50 border-amber-300 text-amber-800" : "bg-white border-stone-300 text-stone-900");
+
+      return '<tr class="hover:bg-stone-50/80 transition">' +
+        '<td class="p-3">' +
+          '<img src="' + imgUrl + '" class="w-10 h-10 object-cover rounded-lg border border-stone-200" onerror="this.src=\'' + SVG_PLACEHOLDER + '\'">' +
+        '</td>' +
+        '<td class="p-3">' +
+          '<div class="font-bold text-stone-900 line-clamp-1">' + p.n + '</div>' +
+          '<div class="text-[11px] text-stone-400 line-clamp-1">' + (p.desc || 'Açıklama yok') + '</div>' +
+        '</td>' +
+        '<td class="p-3"><span class="bg-stone-100 text-stone-600 px-2 py-1 rounded text-xs font-medium">' + getCatName(p.c) + '</span></td>' +
+        '<td class="p-3 font-bold text-stone-900">' + formatMoney(p.p) + '</td>' +
+        '<td class="p-3">' +
+          '<div class="flex items-center gap-1">' +
+            '<input type="number" min="0" value="' + p.stock + '" class="admin-stock-input w-16 p-1 border rounded text-xs font-bold text-center ' + stockClass + '" data-id="' + p.id + '">' +
+            '<span class="text-[10px] text-stone-400">Adet</span>' +
+          '</div>' +
+        '</td>' +
+        '<td class="p-3 text-right space-x-1">' +
+          '<button class="admin-edit-btn bg-stone-100 hover:bg-stone-200 text-stone-800 px-2.5 py-1 rounded text-xs font-semibold" data-id="' + p.id + '">Düzenle</button>' +
+          '<button class="admin-delete-btn bg-rose-50 hover:bg-rose-100 text-rose-700 px-2.5 py-1 rounded text-xs font-semibold" data-id="' + p.id + '">Sil</button>' +
+        '</td>' +
+      '</tr>';
+    }).join("");
+
+    updateAdminStats();
+  }
+
+  function updateAdminStats() {
+    var total = state.products.length;
+    var low = state.products.filter(function(p){ return p.stock > 0 && p.stock < 5; }).length;
+    var zero = state.products.filter(function(p){ return p.stock === 0; }).length;
+
+    document.getElementById("statTotalItems").textContent = total;
+    document.getElementById("statLowStock").textContent = low;
+    document.getElementById("statOutOfStock").textContent = zero;
+  }
+
+  function logActivity(text) {
+    var ul = document.getElementById("adminActivityLog");
+    var time = new Date().toLocaleTimeString("tr-TR", { hour: '2-digit', minute: '2-digit' });
+    var li = document.createElement("li");
+    li.className = "p-2 bg-stone-50 rounded border border-stone-100 flex items-center justify-between";
+    li.innerHTML = '<span>' + text + '</span><span class="text-stone-400">' + time + '</span>';
+    ul.prepend(li);
+  }
+
+  function setPreviewImage(src) {
+    var imgPreview = document.getElementById("imagePreview");
+    var previewContainer = document.getElementById("imagePreviewContainer");
+    var defaultUI = document.getElementById("dropzoneDefaultUI");
+
+    if (src) {
+      imgPreview.src = src;
+      previewContainer.classList.remove("hidden");
+      previewContainer.classList.add("flex");
+      defaultUI.classList.add("hidden");
+      state.currentUploadedImageDataUrl = src;
+    } else {
+      imgPreview.src = "";
+      previewContainer.classList.add("hidden");
+      previewContainer.classList.remove("flex");
+      defaultUI.classList.remove("hidden");
+      state.currentUploadedImageDataUrl = "";
+    }
+  }
+
+  // Automatic Canvas Image Compression to avoid LocalStorage limits
+  function handleFileUpload(file) {
+    if (!file || !file.type.startsWith("image/")) return;
+    
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var img = new Image();
+      img.onload = function() {
+        var canvas = document.createElement("canvas");
+        var maxDim = 800;
+        var width = img.width;
+        var height = img.height;
+
+        if (width > height) {
+          if (width > maxDim) {
+            height = Math.round((height * maxDim) / width);
+            width = maxDim;
+          }
+        } else {
+          if (height > maxDim) {
+            width = Math.round((width * maxDim) / height);
+            height = maxDim;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        var ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0, width, height);
+
+        var compressedDataUrl = canvas.toDataURL("image/jpeg", 0.75);
+        setPreviewImage(compressedDataUrl);
+        document.getElementById("formImage").value = "";
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function setupEventListeners() {
+    // Nav Category Clicks
+    document.getElementById("categoryNav").addEventListener("click", function(e) {
+      var btn = e.target.closest(".cat-btn");
+      if (btn) {
+        state.activeCat = btn.dataset.cat;
+        var catObj = CATEGORIES.find(function(c){ return c.id === state.activeCat; });
+        document.getElementById("sectionTitle").textContent = catObj ? catObj.name : "Ürünler";
+        renderCategories();
+        renderProducts();
+      }
+    });
+
+    // Search inputs with Debounce
+    var debouncedSearch = debounce(function(val) {
+      state.searchQuery = val;
+      renderProducts();
+    }, 200);
+
+    document.getElementById("searchInput").addEventListener("input", function(e) { debouncedSearch(e.target.value.trim()); });
+    document.getElementById("searchInputMobile").addEventListener("input", function(e) { debouncedSearch(e.target.value.trim()); });
+
+    // Sort select
+    document.getElementById("sortSelect").addEventListener("change", function(e) {
+      state.sortBy = e.target.value;
+      renderProducts();
+    });
+
+    // Add to Cart
+    document.getElementById("productGrid").addEventListener("click", function(e) {
+      var btn = e.target.closest(".btn-add-cart");
+      if (btn) {
+        var id = btn.dataset.id;
+        var prod = state.products.find(function(p){ return String(p.id) === String(id); });
+        if (prod && prod.stock > 0) {
+          state.cart[id] = (state.cart[id] || 0) + 1;
+          updateCartBadge();
+          renderCartDrawer();
+          btn.textContent = "Eklendi ✓";
+          btn.classList.replace("bg-stone-900", "bg-emerald-700");
+          setTimeout(function() {
+            btn.textContent = "Sepete Ekle";
+            btn.classList.replace("bg-emerald-700", "bg-stone-900");
+          }, 1000);
+        }
+      }
+    });
+
+    // Cart Modal Toggle
+    var cartDrawer = document.getElementById("cartDrawer");
+    document.getElementById("btnOpenCart").addEventListener("click", function() {
+      renderCartDrawer();
+      cartDrawer.classList.remove("hidden");
+    });
+    document.getElementById("btnCloseCart").addEventListener("click", function() {
+      cartDrawer.classList.add("hidden");
+    });
+
+    // Cart Quantity Buttons
+    document.getElementById("cartItemsList").addEventListener("click", function(e) {
+      var btn = e.target.closest(".cart-qty-btn");
+      if (!btn) return;
+      var id = btn.dataset.id;
+      var action = btn.dataset.action;
+
+      if (action === "inc") {
+        var p = state.products.find(function(prod){ return String(prod.id) === String(id); });
+        if (p && state.cart[id] < p.stock) state.cart[id]++;
+      } else if (action === "dec") {
+        state.cart[id]--;
+        if (state.cart[id] <= 0) delete state.cart[id];
+      } else if (action === "remove") {
+        delete state.cart[id];
+      }
+      updateCartBadge();
+      renderCartDrawer();
+    });
+
+    // Checkout button
+    document.getElementById("btnCheckout").addEventListener("click", function() {
+      if (Object.keys(state.cart).length === 0) return;
+      alert("Siparişiniz başarıyla alındı! Teşekkür ederiz.");
+      state.cart = {};
+      updateCartBadge();
+      renderCartDrawer();
+      cartDrawer.classList.add("hidden");
+    });
+
+    // --- SUBTLE FOOTER ADMIN ENTRY FLOW ---
+    var adminLoginModal = document.getElementById("adminLoginModal");
+    var adminModal = document.getElementById("adminModal");
+
+    var openAdminFlow = function() {
+      if (state.isAdminLoggedIn) {
+        renderAdminTable();
+        adminModal.classList.remove("hidden");
+      } else {
+        document.getElementById("loginUsername").value = "";
+        document.getElementById("loginPassword").value = "";
+        document.getElementById("loginErrorMsg").classList.add("hidden");
+        adminLoginModal.classList.remove("hidden");
+      }
+    };
+
+    // ONLY Triggered via Footer link
+    document.getElementById("footerAdminBtn").addEventListener("click", openAdminFlow);
+
+    document.getElementById("btnCloseLogin").addEventListener("click", function() {
+      adminLoginModal.classList.add("hidden");
+    });
+
+    // Submit Login Form (Credentials: 1 / 1)
+    document.getElementById("adminLoginForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      var u = document.getElementById("loginUsername").value.trim();
+      var p = document.getElementById("loginPassword").value.trim();
+
+      if (u === "1" && p === "1") {
+        state.isAdminLoggedIn = true;
+        adminLoginModal.classList.add("hidden");
+        renderAdminTable();
+        adminModal.classList.remove("hidden");
+      } else {
+        document.getElementById("loginErrorMsg").classList.remove("hidden");
+      }
+    });
+
+    // Logout
+    document.getElementById("btnLogoutAdmin").addEventListener("click", function() {
+      state.isAdminLoggedIn = false;
+      adminModal.classList.add("hidden");
+    });
+
+    document.getElementById("btnCloseAdmin").addEventListener("click", function() {
+      adminModal.classList.add("hidden");
+    });
+
+    // Admin Tab Navigation
+    var tabBtnProducts = document.getElementById("tabBtnProducts");
+    var tabBtnAddProduct = document.getElementById("tabBtnAddProduct");
+    var tabBtnOrders = document.getElementById("tabBtnOrders");
+
+    var tabProducts = document.getElementById("tabProducts");
+    var tabAddProduct = document.getElementById("tabAddProduct");
+    var tabOrders = document.getElementById("tabOrders");
+
+    function switchAdminTab(target) {
+      tabProducts.classList.add("hidden");
+      tabAddProduct.classList.add("hidden");
+      tabOrders.classList.add("hidden");
+
+      [tabBtnProducts, tabBtnAddProduct, tabBtnOrders].forEach(function(b){
+        b.className = "py-3 px-4 border-b-2 border-transparent text-stone-500 hover:text-stone-900 flex items-center gap-2";
+      });
+
+      if (target === "products") {
+        tabProducts.classList.remove("hidden");
+        tabBtnProducts.className = "py-3 px-4 border-b-2 border-stone-900 text-stone-900 font-bold flex items-center gap-2";
+        renderAdminTable();
+      } else if (target === "add") {
+        tabAddProduct.classList.remove("hidden");
+        tabBtnAddProduct.className = "py-3 px-4 border-b-2 border-stone-900 text-stone-900 font-bold flex items-center gap-2";
+      } else if (target === "orders") {
+        tabOrders.classList.remove("hidden");
+        tabBtnOrders.className = "py-3 px-4 border-b-2 border-stone-900 text-stone-900 font-bold flex items-center gap-2";
+        updateAdminStats();
+      }
+    }
+
+    tabBtnProducts.addEventListener("click", function(){ switchAdminTab("products"); });
+    tabBtnAddProduct.addEventListener("click", function(){ switchAdminTab("add"); });
+    tabBtnOrders.addEventListener("click", function(){ switchAdminTab("orders"); });
+    
+    document.getElementById("btnAddNewTrigger").addEventListener("click", function() {
+      document.getElementById("productForm").reset();
+      document.getElementById("editProductId").value = "";
+      setPreviewImage("");
+      document.getElementById("formTitle").textContent = "Yeni Ürün Ekle";
+      switchAdminTab("add");
+    });
+
+    // --- DRAG AND DROP & FILE INPUT HANDLERS ---
+    var dropzone = document.getElementById("imageDropzone");
+    var fileInput = document.getElementById("fileInput");
+
+    fileInput.addEventListener("change", function(e) {
+      if (e.target.files && e.target.files[0]) {
+        handleFileUpload(e.target.files[0]);
+      }
+    });
+
+    ['dragenter', 'dragover'].forEach(function(eventName) {
+      dropzone.addEventListener(eventName, function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        dropzone.classList.add("dropzone-active");
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(function(eventName) {
+      dropzone.addEventListener(eventName, function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        dropzone.classList.remove("dropzone-active");
+      }, false);
+    });
+
+    dropzone.addEventListener("drop", function(e) {
+      var dt = e.dataTransfer;
+      if (dt && dt.files && dt.files[0]) {
+        handleFileUpload(dt.files[0]);
+      }
+    });
+
+    document.getElementById("formImage").addEventListener("input", function(e) {
+      if (e.target.value.trim()) {
+        setPreviewImage(e.target.value.trim());
+      }
+    });
+
+    // Inline Stock Edit
+    document.getElementById("adminProductTable").addEventListener("change", function(e) {
+      if (e.target.classList.contains("admin-stock-input")) {
+        var id = e.target.dataset.id;
+        var newStock = parseInt(e.target.value) || 0;
+        var p = state.products.find(function(item){ return String(item.id) === String(id); });
+        if (p) {
+          p.stock = Math.max(0, newStock);
+          saveProducts();
+          renderProducts(); // Immediate home page update
+          logActivity("Stok güncellendi: " + p.n + " → " + p.stock + " Adet");
+        }
+      }
+    });
+
+    // Admin Table Edit / Delete
+    document.getElementById("adminProductTable").addEventListener("click", function(e) {
+      var editBtn = e.target.closest(".admin-edit-btn");
+      var delBtn = e.target.closest(".admin-delete-btn");
+
+      if (editBtn) {
+        var id = editBtn.dataset.id;
+        var p = state.products.find(function(item){ return String(item.id) === String(id); });
+        if (p) {
+          document.getElementById("editProductId").value = p.id;
+          document.getElementById("formName").value = p.n;
+          document.getElementById("formCategory").value = p.c;
+          document.getElementById("formPrice").value = p.p;
+          document.getElementById("formStock").value = p.stock;
+          document.getElementById("formImage").value = p.img && !p.img.startsWith("data:") ? p.img : "";
+          document.getElementById("formDesc").value = p.desc || "";
+
+          setPreviewImage(p.img || "");
+
+          document.getElementById("formTitle").textContent = "Ürün Düzenle: " + p.n;
+          switchAdminTab("add");
+        }
+      }
+
+      if (delBtn) {
+        var delId = delBtn.dataset.id;
+        var delProduct = state.products.find(function(item){ return String(item.id) === String(delId); });
+        if (delProduct && confirm("'" + delProduct.n + "' ürününü silmek istediğinize emin misiniz?")) {
+          state.products = state.products.filter(function(item){ return String(item.id) !== String(delId); });
+          saveProducts();
+          renderAdminTable();
+          renderProducts(); // Immediate home page update
+          logActivity("Ürün silindi: " + delProduct.n);
+        }
+      }
+    });
+
+    // Admin Search Input
+    document.getElementById("adminSearchInput").addEventListener("input", function(e) {
+      state.adminSearch = e.target.value.trim();
+      renderAdminTable();
+    });
+
+    // Save/Update Product Form
+    document.getElementById("productForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      var editId = document.getElementById("editProductId").value;
+      
+      var name = document.getElementById("formName").value.trim();
+      var category = document.getElementById("formCategory").value;
+      var price = parseFloat(document.getElementById("formPrice").value) || 0;
+      var stock = parseInt(document.getElementById("formStock").value) || 0;
+      var urlImage = document.getElementById("formImage").value.trim();
+      var desc = document.getElementById("formDesc").value.trim();
+
+      // Final Image Decision: uploaded Data URL > text URL > SVG Fallback
+      var finalImg = state.currentUploadedImageDataUrl || urlImage || SVG_PLACEHOLDER;
+
+      if (editId) {
+        var p = state.products.find(function(item){ return String(item.id) === String(editId); });
+        if (p) {
+          p.n = name;
+          p.c = category;
+          p.p = price;
+          p.stock = stock;
+          p.img = finalImg;
+          p.desc = desc;
+          logActivity("Ürün güncellendi: " + p.n);
+        }
+      } else {
+        var newObj = {
+          id: Date.now(),
+          n: name,
+          c: category,
+          p: price,
+          stock: stock,
+          img: finalImg,
+          desc: desc
+        };
+        state.products.unshift(newObj);
+        logActivity("Yeni ürün eklendi: " + newObj.n);
+      }
+
+      saveProducts();
+      renderProducts(); // Immediate Home Page Refresh
+      switchAdminTab("products");
+    });
+
+    document.getElementById("btnCancelForm").addEventListener("click", function() {
+      switchAdminTab("products");
+    });
+
+    // Reset Data button
+    document.getElementById("btnResetData").addEventListener("click", function() {
+      if (confirm("Tüm değişiklikler sıfırlanıp varsayılan Engin Home ürün kataloğu yüklenecek. Onaylıyor musunuz?")) {
+        state.products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+        saveProducts();
+        renderAdminTable();
+        renderProducts();
+        logActivity("Varsayılan mağaza verileri yüklendi.");
+      }
+    });
+  }
+
+  // Init Application
+  function init() {
+    loadStoredProducts();
+    renderCategories();
+    renderProducts();
+    setupEventListeners();
+  }
+
+  window.onload = init;
+})();
+</script>
+</body>
+</html>
